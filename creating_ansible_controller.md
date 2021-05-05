@@ -64,3 +64,6 @@ The `-m` flag means module
 `ansible [agent_name] -m ping` - Another verion of the ping command. Let's you ping a named agent.  
 `ansible all -m shell -a "uptime"` - Used to the uptime for all machines in your host file.  
 `--become` - Appened to the end of a command, this allows you to run it in admin mode.  
+
+https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_module.html
+

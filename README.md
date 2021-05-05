@@ -27,6 +27,14 @@ It's a method of provisioning and managing IT infrastructure through machine rea
 ## What is Ansible?
 
 ## [Setting Up Ansible Vault](ansible_vault.md)
-Explaination here
+There are many ways to keep our AWS keys secure. When using Ansible, we can use Ansible Vault to keep our keys secure.  
+Other methods:  
+- Use .gitignore
+- SSH to access machines
+- Use env variables
+<!-- - (SSH agent) -->
+
+Using Ansible Vault is more secure.  
+Vault uses boto3
 
 ## [Setting Up Ansible Controller](creating_ansible_controller.md)
