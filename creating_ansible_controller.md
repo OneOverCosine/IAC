@@ -1,4 +1,7 @@
-# The Ansible Controller
+# This is more of an informational file - I would go elsewhere for setup instructions
+
+
+## The Ansible Controller
 The setup files for the controller, web, and database vms were provided for us.  
 
 ### The Hosts File
@@ -64,6 +67,7 @@ The `-m` flag means module
 `ansible [agent_name] -m ping` - Another verion of the ping command. Let's you ping a named agent.  
 `ansible all -m shell -a "uptime"` - Used to the uptime for all machines in your host file.  
 `--become` - Appened to the end of a command, this allows you to run it in admin mode.  
+`ansible-playbook rds_prod.yml  --syntax-check` - useful for cheking syntax
 
 https://docs.ansible.com/ansible/latest/collections/amazon/aws/ec2_module.html
 
