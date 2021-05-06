@@ -56,7 +56,7 @@ After hitting `ESC` do `:wq` and enter to save and quit.
 
 Now run
 ```
-sudo ansible-playbook instance_setup.yml --ask-vault-pass -t create_ec2
+sudo ansible-playbook playbook_name.yml --ask-vault-pass -t create_ec2
 ```
 
 <!--
